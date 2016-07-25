@@ -65,7 +65,7 @@
 //    NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
        //js与oc交互之 oc调用js
     dispatch_async(dispatch_get_main_queue(), ^{
-            NSString *jscode = [NSString stringWithFormat:@"api('%@')",str];
+        NSString *jscode = [NSString stringWithFormat:@"api('%@')",str];
             [_context evaluateScript:jscode];
             NSLog(@"%@",str);//测试代码
         });
