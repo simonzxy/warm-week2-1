@@ -16,6 +16,7 @@
 		C1DE7B971D4623DA00CB3FD0 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1DE7B961D4623DA00CB3FD0 /* JavaScriptCore.framework */; };
 		C1DE7B9A1D462CDF00CB3FD0 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DE7B991D462CDF00CB3FD0 /* BViewController.m */; };
 		C1DE7BA01D46439600CB3FD0 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DE7B9F1D46439600CB3FD0 /* AViewController.m */; };
+		C1DE7BA21D465E9000CB3FD0 /* b.html in Resources */ = {isa = PBXBuildFile; fileRef = C1DE7BA11D465E9000CB3FD0 /* b.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		C1DE7B991D462CDF00CB3FD0 /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
 		C1DE7B9E1D46439600CB3FD0 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
 		C1DE7B9F1D46439600CB3FD0 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		C1DE7BA11D465E9000CB3FD0 /* b.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = b.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				C1DE7B8B1D46228700CB3FD0 /* LaunchScreen.storyboard */,
 				C1DE7B8E1D46228700CB3FD0 /* Info.plist */,
 				C1DE7B941D4622B900CB3FD0 /* a.html */,
+				C1DE7BA11D465E9000CB3FD0 /* b.html */,
 				C1DE7B7D1D46228700CB3FD0 /* Supporting Files */,
 			);
 			path = "js-with-native";
@@ -148,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1DE7BA21D465E9000CB3FD0 /* b.html in Resources */,
 				C1DE7B8D1D46228700CB3FD0 /* LaunchScreen.storyboard in Resources */,
 				C1DE7B8A1D46228700CB3FD0 /* Assets.xcassets in Resources */,
 				C1DE7B951D4622B900CB3FD0 /* a.html in Resources */,
