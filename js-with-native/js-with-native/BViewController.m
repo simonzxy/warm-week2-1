@@ -51,6 +51,8 @@
     _context[@"call"] = ^(){
     
         NSLog(@"API呼叫");//测试代码
+        LOG_METHOD;
+        
         [weakSelf apicall];//自定义方法进行网络请求
     };
     
@@ -65,9 +67,9 @@
 //    NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
        //js与oc交互之 oc调用js
     dispatch_async(dispatch_get_main_queue(), ^{
-        NSString *jscode = [NSString stringWithFormat:@"api('%@')",str];
+        NSString *jscode = [NSString stringWithFormat:@"api(%@)",str];
             [_context evaluateScript:jscode];
-            NSLog(@"%@",str);//测试代码
+           // NSLog(@"%@",str);//测试代码
         });
         
     }];
